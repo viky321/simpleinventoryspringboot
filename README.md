@@ -28,9 +28,9 @@ Update your database configuration in src/main/resources/application.properties:
 
 properties
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/inventory
-spring.datasource.username=postgres
-spring.datasource.password=root
+spring.datasource.url=jdbc:postgresql:name your database
+spring.datasource.username=your username
+spring.datasource.password=your password
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
