@@ -13,10 +13,7 @@ public class ProductService {
 
     @Autowired
     private ProductRepository productRepository;
-
-    
-
-    
+  
 
     public List<Product> getAllProducts() {
         return productRepository.findAll();
@@ -29,7 +26,6 @@ public class ProductService {
     public void deleteProduct(Long id) {
         productRepository.deleteById(id);
     }
-
     
 
     public Product updateProduct(Long id, Product newProductDetails) {
